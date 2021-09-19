@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="erro"></h1>
+    <header>
+        <h1>qualculador de idade</h1>
+    </header>
+
+    <section id="style">
+
+        <p id="p1">ano de nascimento <input type="number" name="txt" id="txt"></p>
+
+        <p id="p">sexo:
+            <input type="radio" name="rsex" id="masc" checked>
+            <label for="masc">masculino</label>
+            <input type="radio" name="rsex" id="femi">
+            <label for="femi">feminino</label>
+        </p>
+
+        <p id="p2"><input id="butao" type="button" value="verificar" onclick="clicar()"></p>
+
+        <div id="resposta"></div>
+    </section>
+
+    <footer>
+        &copy;calculadordeidade
+        <div id="voltar" onclick="volta()"></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    background: black;
+}
+header{
+    font:italic 20pt italic;
+    text-align: center;
+    color: white;
+}
+
+section{
+    font:normal 25pt Arial;
+    background: white;
+    margin: auto;
+    width: 500px;
+    border-radius: 60px;
+    text-align: center;
+    padding: 6px;
+    box-shadow: -2px -2px 28px white;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+#butao{
+    font:normal 18pt Arial;
+}
+#txt{
+    font:normal 15pt Arial;
+    width: 80px;
+}
+#resposta{
+    color: green;
+    font:italic 18pt arial;
+    font-style: italic;
+    padding: 10px;
+}
+
+#erro{
+    font:normal 60pt Arial;
+    text-align: center;
+    color: red;
+}
+#voltar{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 40px;
+    margin: auto;
+    box-shadow: 1px -1px 16px white;
+    margin-top: 20px;
+}
